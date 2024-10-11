@@ -1,0 +1,10 @@
+[package]
+name = "rust_build_script"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[build-dependencies]
+macroquad = "0.4.13"
+rand = "0.8.5"

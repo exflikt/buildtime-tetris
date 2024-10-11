@@ -1,0 +1,10 @@
+[package]
+name = "rust_procmacro"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tetris_macro = { path = "./tetris_macro" }
+
+[workspace]
+members = ["tetris_macro"]
